@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Head_First_CShp_Ch2_Pg4
+namespace Flashy_Thing
 {
 	static class Program
 	{
@@ -16,8 +16,7 @@ namespace Head_First_CShp_Ch2_Pg4
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			//Application.Run(new Form1());
-			Application.Run(new FlashyThing());
+			Application.Run(new Form2());
 		}
 	}
 }
